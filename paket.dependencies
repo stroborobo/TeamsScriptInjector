@@ -1,0 +1,9 @@
+source https://api.nuget.org/v3/index.json
+storage: none
+framework: net5.0
+generate_load_scripts: true
+
+nuget Elmish
+nuget FSharp.Core
+nuget FSharp.SystemTextJson
+nuget Ply

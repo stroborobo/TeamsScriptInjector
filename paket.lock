@@ -1,0 +1,16 @@
+GENERATE-LOAD-SCRIPTS: ON
+STORAGE: NONE
+RESTRICTION: == net50
+NUGET
+  remote: https://api.nuget.org/v3/index.json
+    Elmish (3.1)
+      FSharp.Core (>= 4.6.2)
+    FSharp.Core (5.0.1)
+    FSharp.SystemTextJson (0.16.6)
+      FSharp.Core (>= 4.7)
+      System.Text.Json (>= 4.6)
+    Ply (0.3.1)
+      FSharp.Core (>= 4.6.2)
+      System.Threading.Tasks.Extensions (>= 4.5.4)
+    System.Text.Json (5.0.2)
+    System.Threading.Tasks.Extensions (4.5.4)
